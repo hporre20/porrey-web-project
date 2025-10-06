@@ -10,7 +10,7 @@ body {
 
 header {
     width: 30%;
-    padding: .3em;
+    margin-left: 30px;
 }
 
 a:link, a:visited {
@@ -44,15 +44,20 @@ a#links {
 
 nav {
     width: 70%;
+    overflow: hidden;
+    margin-right: 50px;
 }
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
 }
 
 nav li {
     font-size: 1.1em;
-    display: inline-block;
     padding: .8em;
 }
 
@@ -127,13 +132,10 @@ footer {
 .column {
     background-color: #ADC2AE;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     padding: .5em;
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 150px;
 }
 
 #wrapper {
