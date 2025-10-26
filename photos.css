@@ -1,0 +1,175 @@
+#portrait { 
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#portrait-2 {
+    height: 500px;
+    width: 300px;
+}
+
+#gallery-barcelona {
+    background-image: url(images/Barcelona/parc-guell-steps.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#gallery-madrid {
+    background-image: url(images/Madrid/arena.JPG);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#gallery-granada {
+    background-image: url(images/Granada/pool.JPG);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#gallery-sevilla {
+    background-image: url(images/Sevilla/gallery.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#barcelona-, #madrid-1, #granada-1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 30px auto;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+    img.hero {
+        height: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    img.icon {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        padding: 5px;
+        border-radius: 0;
+    }
+
+    img.blog {
+        width: 350px;
+        height: 200px;
+        margin: 5px;
+    }
+
+    img.gallery {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img#contact {
+        width: 300px;
+        height: 500px;
+    }
+
+@media (min-width: 600px) {
+    img {
+        height: 500px;
+        width: 400px;
+    }
+
+        img.hero {
+            height: 500px;
+            max-width: 90%;
+        }
+        
+        img.blog {
+            width: 400px;
+            height: 250px;
+        }
+
+        img.gallery {
+            height: 250px;
+            width: 250px;
+        }
+
+        img#contact {
+            width: 500px;
+            height: 700px;
+        }
+
+    #portrait {
+        height: 450px;
+        width: 650px;
+    }
+
+    #portrait-2 {
+        height: 700px;
+        width: 400px;
+    }
+
+    #gallery-barcelona, #gallery-madrid, #gallery-granada, #gallery-sevilla {
+        height: 350px;
+        width: 350px;
+        margin: 5px;
+    }
+
+    #barcelona-1, #madrid-1, #granada-1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    img.blog {
+        width: 450px;
+        height: 300px;
+    }
+
+    img.gallery {
+        height: 300px;
+        width: 300px;
+    }
+
+    #logo {
+        height: 175px;
+        width: 500px;
+    }
+
+    #portrait {
+        height: 550px;
+        width: 750px;
+    }
+
+    #gallery-barcelona, #gallery-madrid, #gallery-granada, #gallery-sevilla {
+        height: 400px;
+        width: 400px;
+        margin: 5px;
+    }
+}
