@@ -264,7 +264,7 @@ h4 {
     font-size: 20px;
 }
 
-h5 {
+    h5 {
     font-size: 16px;
     color: #694F60;
     width: 85%;
@@ -283,6 +283,13 @@ p {
     p.box {
         text-align: center;
     }
+
+video {
+    display: flex;
+    margin: auto;
+    height: 350px;
+    width: 400px;
+}
 
 .photo {
     margin: auto;
@@ -528,6 +535,14 @@ footer {
 
     h1 {
         font-size: 2.4em;
+    }
+
+    video {
+        height: 400px;
+        width: 800px;
+        margin: auto;
+        display: block;
+
     }
 
     .footer-row {
