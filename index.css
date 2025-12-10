@@ -32,6 +32,7 @@ a {
 
     a.button {
         margin: 30px auto;
+        text-align: center;
     }
 
     a.button:link, a.button:visited {
@@ -55,6 +56,12 @@ a {
     a#links {
         display: inline-block;
         margin: 20px;
+    }
+
+    a.button#book {
+        display: flex;
+        margin: 5px auto;
+        font-size: 2em;
     }
 
 nav {
@@ -151,7 +158,7 @@ input {
     margin: 10px;
 }
 
-    input[type=button], input[type=submit] {
+    input[type=button] {
         background-color: #96738A;
         color: #FFF;
         font-family: 'Century Gothic', sans-serif;
@@ -162,6 +169,20 @@ input {
         border-radius: 10px;
         text-align: center;
         width: 100%;
+    }
+
+    input[type=submit] {
+        background-color: #96738A;
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        padding: 10px;
+        border: #694F60 2px solid;
+        border-radius: 10px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
     }
 
     input[type=submit] {
